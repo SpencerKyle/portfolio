@@ -10,21 +10,22 @@ body {
 }
 
 nav {
-    background-color: #464752;
+    background-image: linear-gradient(to right, #010101, #131313);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-bottom: solid 2px #BCC0C0;
 }
 
 .portfolio {
-    background-color: #91BAC9;
+    background-color: #BCC0C0;
     margin: 4px 0;
-    padding: 5px 5px 5px 70px;
+    padding: 5px 5px 5px 100px;
 }
 
 .portfolio h1 {
     font-size: 45px;
-    color: #464752;
+    color: #010101;
 }
 
 .links {
@@ -36,17 +37,24 @@ nav {
 
 .links a {
     text-decoration: none;
-    color: #91BAC9;
-    border-bottom: solid 3px #91BAC9;
+    color: #BCC0C0;
+    border-bottom: solid 3px #BCC0C0;
     padding: 5px 12px;
 }
 
 .linkItem {
-    color: #91BAC9;
+    color: #BCC0C0;
     padding: 11px;
     font-size: 20px;
 }
 
 .linkItem:last-child{
     margin-right: 15px;
+}
+
+/* hero stuff */
+.hero {
+    background-image: url("../assets/images/hero.bg.jpg");
+    background-size: cover;
+    height: 475px;
 }
