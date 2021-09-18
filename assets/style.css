@@ -24,7 +24,8 @@ nav {
 .portfolio {
     background-color: #BCC0C0;
     margin: 4px 0;
-    padding: 5px 5px 5px 100px;
+    padding: 5px 10px 5px 100px;
+    border-radius: 0 10px 10px 0;
 }
 
 .portfolio h1 {
@@ -63,23 +64,51 @@ nav {
     height: 400px;
     border-bottom: solid 2px #BCC0C0;
 }
-/* about me */
-.aboutMe {
+/* section */
+.sectionHead {
     background-color: #BCC0C0;
     display: flex;
-    text-align: center;
     margin: 30px 100px;
 }
 
-.aboutMe h2 {
+.sectionHead h2 {
     display: flex;
-    justify-content: end;
+    text-align: end;
     font-size: 35px;
+    /* justify-content: end; */
+    border-right: solid 3px #010101;
+    padding-right: 15px;
+    flex: 2 30%;
 }
 
-.aboutMe p {
-    border-left: solid 2px #010101;
-    text-align: center;
+.sectionHead p {
+    text-align: left;
     margin-left: 30px;
     padding-left: 30px;
+}
+/* about me */
+.aboutMe {
+    display: flex;
+}
+/* work */
+.work {
+    display: flex;
+}
+
+/* contact start */
+.contactMe {
+    display: flex;
+}
+
+.contactMe h2 {
+
+}
+
+.contactInfo {
+    display: flex;
+    list-style: none;
+}
+
+.contactInfo a {
+    text-decoration: none;
 }
