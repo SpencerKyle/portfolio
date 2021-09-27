@@ -14,7 +14,7 @@
             <h1>Portfolio</h1>
         </div>
             <ul class="links">
-                <li class="linkItem"><a href="#">About Me</a></li>
+                <li class="linkItem"><a href="#aboutMe">About Me</a></li>
                 <li class="linkItem"><a href="#">Work</a></li>
                 <li class="linkItem"><a href="#">Contact Me</a></li>
                 <li class="linkItem"><a href="#">Resume</a></li>
@@ -22,39 +22,51 @@
     </nav>
     <!-- hero start -->
     <header class="hero"></header>
+
+<main class="main">
     <!-- about me section -->
     <section class="sectionHead">
-        <div class="aboutMe">
-            <h2>About Me</h2>
+        <h2>About <br> Me</h2>
+        <div id="aboutMe" class="aboutMe">
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facere deleniti doloribus voluptatibus inventore aliquid saepe odit at minus tempora deserunt voluptate aut magni quisquam eaque, provident et reiciendis culpa?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus repudiandae ab, ea, in, aliquam a voluptas iste modi ipsam sint alias ut! Ipsum, fugit facilis officiis maxime cum sequi?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae voluptatum doloribus expedita laboriosam laborum nihil facere magni consequatur, facilis veniam vitae amet quam necessitatibus optio quod nesciunt asperiores aperiam!
+                Welcome to my portfolio page, I am currently enrolled in the University of Utah's full-stack web developer bootcamp program. I have experience with HTML5, CSS, and Javascript.
             </p>
         </div>
     </section>
-
+    <!-- work section -->
     <section class="sectionHead">
+        <h2>Work</h2>
         <div class="work">
-            <h2>Work</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facere deleniti doloribus voluptatibus inventore aliquid saepe odit at minus tempora deserunt voluptate aut magni quisquam eaque, provident et reiciendis culpa?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus repudiandae ab, ea, in, aliquam a voluptas iste modi ipsam sint alias ut! Ipsum, fugit facilis officiis maxime cum sequi?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae voluptatum doloribus expedita laboriosam laborum nihil facere magni consequatur, facilis veniam vitae amet quam necessitatibus optio quod nesciunt asperiores aperiam!
-            </p>
+            <div class="work_main">
+                <a href="https://spencerkyle.github.io/run-buddy/">
+                    <img src="./assets/images/box1.png" alt="run-buddy" class="work_img">
+                    <div class="work_img_text">
+                        <h4>Run Buddy</h4>
+                    </div>
+                </a>
+            </div>
+            <br>
+            <div class="work_lesser">
+                <a href="">
+                    <img src="./assets/images/box2.jpg" alt="placeholder" class="work_img">
+                </a>
+                <a href="https://spencerkyle.github.io/robot-gladiators/">    
+                    <img src="./assets/images/box3.jpg" alt="placeholder" class="work_img">
+                </a>
+            </div>
         </div>
     </section>
-
+    <!-- contact section -->
     <section class="sectionHead">
-        <!-- <div class="contactMe"> -->
-            <h2>Contact Me</h2>
-                <ul class="contactInfo">
+        <h2>Contact</h2>
+                <ul class="contact">
                     <li><a href="">555.555.555</a></li>
-                    <li><a href="">email@email.com</a></li>
-                    <li><a href="">GitHub</a></li>
-                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="mailto: Spencer.Kyle@hotmail.com">Spencer.Kyle@hotmail.com</a></li>
+                    <li><a href="https://github.com/SpencerKyle">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/spencer-k-544225112/">LinkedIn</a></li>
                 </ul>
         <!-- </div> -->
     </section>
+</main>
 </body>
 </html>
